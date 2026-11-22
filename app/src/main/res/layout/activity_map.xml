@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/osmMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#E6FFFFFF"
+        android:padding="10dp"
+        android:text="Waiting for GPS..."
+        android:textColor="#0F2A44"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:background="#E6FFFFFF"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u25CF High priority"
+            android:textColor="#DC2626"
+            android:textSize="11sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u25CF Due today"
+            android:textColor="#F59E0B"
+            android:textSize="11sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u25CF Upcoming"
+            android:textColor="#16A34A"
+            android:textSize="11sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u25CF You"
+            android:textColor="#2563EB"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/attributionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="64dp"
+        android:background="#CCFFFFFF"
+        android:padding="4dp"
+        android:textColor="#333333"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#E6FFFFFF"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <Button
+            android:id="@+id/myLocationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/primary"
+            android:text="MY LOCATION"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/fitAllButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/primary"
+            android:text="FIT ALL"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/styleButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/primary"
+            android:text="STYLE"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

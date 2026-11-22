@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="@color/text_primary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Choose your language / भाषा चुनें"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="The AI assistant will answer in this language, and voice input will listen for it."
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/saveLanguageButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="25dp"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary" />
+
+</LinearLayout>

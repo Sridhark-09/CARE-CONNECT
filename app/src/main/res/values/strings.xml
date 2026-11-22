@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CareConnect</string>
+
+    <string name="dashboard_greeting">Good Morning \uD83D\uDC4B</string>
+    <string name="dashboard_title">Community Health Worker</string>
+    <string name="dashboard_online">\u25CF ONLINE</string>
+
+    <string name="nav_patients">\uD83D\uDC65  Patient Management</string>
+    <string name="nav_ai">\uD83E\uDD16  AI Health Assistant</string>
+    <string name="nav_map">\uD83D\uDDFA  Field Map</string>
+    <string name="nav_reminders">\uD83D\uDD14  Reminders</string>
+    <string name="nav_reports">\uD83D\uDCCA  Reports</string>
+    <string name="nav_logout">LOGOUT</string>
+
+    <string name="priority_heading">Priority Follow-ups</string>
+    <string name="priority_high">High priority</string>
+    <string name="priority_due">Due today</string>
+    <string name="priority_upcoming">Upcoming</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">App Language</string>
+    <string name="settings_english">English</string>
+    <string name="settings_kannada">\u0C95\u0CA8\u0CCD\u0CA8\u0CA1 (Kannada)</string>
+    <string name="settings_save">SAVE</string>
+</resources>
